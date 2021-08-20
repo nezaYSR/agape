@@ -1,0 +1,25 @@
+@import "sass/abstracts/function";
+@import "sass/abstracts/mixins";
+@import "sass/abstracts/variables";
+@import "~bootstrap/scss/bootstrap";
+
+@import "sass/base/base";
+@import "sass/base/typography";
+@import "sass/base/utilities";
+
+// LAYOUTS
+@import "sass/components/layouts/header";
+@import "sass/components/layouts/footer";
+@import "sass/components/layouts/burger-menu";
+
+// PAGES
+@import "sass/components/pages/home";
+@import "sass/components/pages/monitor";
+@import "sass/components/pages/cash";
+@import "sass/components/pages/register";
+
+// MODULES
+@import "sass/components/modules/banner";
+@import "sass/components/modules/room-banner";
+// @import "sass/components/modules/burger-menu";
+// @import "sass/components/modules/about-me-tabs";

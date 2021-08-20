@@ -1,0 +1,48 @@
+@include breakpoint(mobile) {
+  .footer-section {
+    padding: 15px;
+    background-color: rgb(32, 32, 32);
+    &-row {
+      display: flex;
+      justify-content: space-between;
+      .right {
+        h2 {
+          font-family: Comfortaa-Bold;
+          color: $base-color;
+          font-size: 20px;
+        }
+        address {
+          font-family: Montserrat-Medium;
+          color: $base-color;
+          width: 150px;
+          font-size: 12px;
+        }
+      }
+      .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+          font-family: Comfortaa-Medium;
+          color: $base-color;
+          font-size: 15px;
+        }
+        .socmed-logos {
+          justify-content: space-around;
+          .socmed-img {
+            img {
+              height: 30px;
+              margin: 0 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint(tablet) {
+}
+
+@include breakpoint(laptops) {
+}

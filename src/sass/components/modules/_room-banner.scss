@@ -1,0 +1,77 @@
+@include breakpoint(mobile) {
+    .room-banner-section {
+      .mySwiper {
+        .card {
+          height: 350px;
+          &-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding-bottom: 25px;
+            .card-title {
+              font-family: Comfortaa-Bold;
+            }
+            .card-subtitle {
+              font-family: Montserrat-Medium;
+            }
+            .card-text {
+              font-family: Montserrat-Light;
+            }
+            .card-link {
+              button {
+                font-family: Comfortaa-Medium;
+              }
+            }
+          }
+        }
+  
+        .slide-0 {
+          background-image: url("https://images.pexels.com/photos/4992451/pexels-photo-4992451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+          background-size: cover;
+          .card-title {
+            color: rgb(19, 19, 19) !important;
+          }
+          .card-subtitle {
+            color: rgb(46, 46, 46) !important;
+          }
+          .card-text {
+            color: white !important;
+          }
+        }
+        .slide-1 {
+          background-image: url("https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+          background-size: cover;
+  
+          .card-title {
+            color: rgb(226, 226, 226) !important;
+          }
+          .card-subtitle {
+            color: rgb(233, 233, 233) !important;
+          }
+          .card-text {
+            color: rgb(17, 17, 17) !important;
+          }
+        }
+        .slide-2 {
+          background-image: url("https://images.pexels.com/photos/6444255/pexels-photo-6444255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+          background-size: cover;
+          .card-title {
+            color: rgb(255, 255, 255) !important;
+          }
+          .card-subtitle {
+            color: rgb(233, 233, 233) !important;
+          }
+          .card-text {
+            color: rgb(17, 17, 17) !important;
+          }
+        }
+      }
+    }
+  }
+  
+  @include breakpoint(tablet) {
+  }
+  
+  @include breakpoint(laptops) {
+  }
+  

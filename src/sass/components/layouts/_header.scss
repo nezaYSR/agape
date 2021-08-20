@@ -1,0 +1,29 @@
+@include breakpoint(mobile) {
+  .header-section {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 12px 33px -1px rgba(167, 167, 167, 0.75);
+    -webkit-box-shadow: 2px 12px 33px -1px rgba(189, 189, 189, 0.75);
+    -moz-box-shadow: 2px 12px 33px -1px rgba(207, 207, 207, 0.75);
+    .logo-img {
+      img {
+        height: 85px;
+      }
+    }
+    .menu-img {
+      margin-right: 1em;
+      img {
+        height: 45px;
+      }
+    }
+  }
+}
+
+@include breakpoint(tablet) {
+}
+
+@include breakpoint(laptops) {
+}
