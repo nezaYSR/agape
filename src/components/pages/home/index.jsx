@@ -6,8 +6,8 @@ import Footer from "../../layouts/footer";
 
 import Banner from "../../modules/banner";
 
-import Pic1 from "../../../assets/images/2650149.jpg";
-import Pic2 from "../../../assets/images/Online.jpg";
+// import Pic1 from "../../../assets/images/2650149.jpg";
+// import Pic2 from "../../../assets/images/Online.jpg";
 
 const Home = () => {
   return (
@@ -15,9 +15,6 @@ const Home = () => {
       <div className="home-section">
         <Header />
         <Banner/>
-        <div className="part-1">
-          <img src=/>
-        </div>
         <Footer />
       </div>
     </Fragment>
